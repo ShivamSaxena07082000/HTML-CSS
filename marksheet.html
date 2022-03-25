@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+          color:orangered;
+          font-family: 'Times New Roman';          
+        }
+        table
+        {
+            width:50%;
+            margin-left: 24%; 
+            margin-top: 5%;
+            text-align: center; 
+            font-family: 'Times New Roman';  
+        
+        }
+        #headings
+        {
+          background-color:goldenrod;
+          color: black;
+          font-family: 'Times New Roman'; 
+        }
+        #table1
+        {
+            
+            width:98%;
+            margin-left: 1%; 
+            margin-top: 3%;
+            text-align: center; 
+        }
+        #roll
+        {
+            background-color:cornsilk;
+            color: black;
+        }
+        #nme
+        {
+            background-color:greenyellow;
+            color: black;
+        }
+        #Numb
+        {
+            width:50%;
+            margin-left:22%;
+            text-align: center;
+        }
+        </style> 
+        <script type="text/javascript" src="marksheet.js">
+          
+        </script>  
+</head>               
+    <body>
+        <h1 align="center"> Class 10th Marksheet</h1>
+    <div align ="center">    
+        <b>Roll Number:</b><input type="text" id='rol'>
+        <input type="submit" value="Get Marks" onclick="ss()">
+    </div>    
+    
+    <div id="table1">    
+    <table border ="4">
+    <tr id = "roll">
+        <th>Roll Number</th>
+        <td>1346439</td>
+    </tr>
+    <tr id="nme">
+        <th>Name</th>
+        <td>Shivam Saxena</td>
+    </tr>
+    <tr id="roll">
+        <th>Date of Birth</th>
+        <td>07/08/2000</td>
+    </tr>
+    </table>
+    </div>
+        
+
+        <table border="4">
+        <tr id="headings">
+
+                <th>Subject Marks</th>
+                <th>Max Marks</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total</th>
+                <th>Grade</th>
+        </tr>
+        <tr id="roll">
+            <th>Hindi</th>
+            <td>100</td>
+            <td>56</td>
+            <td>30</td>
+            <td>86</td>
+            <td>A2</td>
+        </tr>
+        <tr id="nme">
+            <th>English</th>
+            <td>100</td>
+            <td>55</td>
+            <td>30</td>
+            <td>85</td>
+            <td>A2</td>
+        </tr>
+        <tr id="roll">
+            <th>Mathematics</th>
+            <td>100</td>
+            <td>58</td>
+            <td>29</td>
+            <td>87</td>
+            <td>A2</td>
+        </tr>
+        <tr id="nme">
+            <th>Science</th>
+            <td>100</td>
+            <td>55</td>
+            <td>30</td>
+            <td>85</td>
+            <td>A2</td>
+        </tr>
+        <tr id="roll">
+            <th>Social Science</th>
+            <td>100</td>
+            <td>55</td>
+            <td>30</td>
+            <td>85</td>
+            <td>A2</td>
+        </tr>
+        <tr id="nme">
+            <th>Computer</th>
+            <td>100</td>
+            <td>50</td>
+            <td>30</td>
+            <td>80</td>
+            <td>B1</td>
+        </tr>
+    
+    </table>
+
+</body>
+</html>
