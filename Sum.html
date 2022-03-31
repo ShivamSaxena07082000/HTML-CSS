@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body
+         {
+            text-align: center;
+            margin-left: 70px;
+            margin-top: 5%;
+         }
+         #btn
+         {
+             background-color: black;
+             color:wheat;
+             height:50px;
+             width:91px;
+             margin-left: 3px;
+             
+         }
+         #f_no
+         {
+             border-radius: 5px;
+             color:brown;
+             background-color: aquamarine;
+             height: 30px;
+         }
+         #s_no
+         {
+             border-radius: 5px;
+             color:brown;
+             background-color: aquamarine;
+             height: 30px;
+         }
+         #sum_no
+         {
+             border-radius: 5px;
+             color:brown;
+             background-color: aquamarine;
+             height: 30px;
+         }
+         
+    </style>
+    <script type = "text/javascript" src="Sum.js">
+
+    </script>    
+</head>
+<body>
+    <table align="center" cellspacing="27">
+        <div id="fields">
+            <tr><td>Number1:</td><td><input type="text" placeholder="Enter a Number" id="f_no"></td></tr><br>
+            <br>
+            <tr><td>Number2:</td><td><input type="text" placeholder="Enter a Number" id="s_no"></td></tr><br>
+            <br>
+            <tr><td>Result:</td><td><input type="text" id="sum_no"></td></tr><br>
+            <br>
+        </div>
+        <tr><td><input type ="submit" value="SUM" id="btn" onclick="sm()"></td>
+        <td><input type ="submit" value="SUBTRACT" id="btn" onclick="sb()"></td>
+        <td><input type ="submit" value="MULTIPLY" id="btn" onclick="ml()"></td>
+        <td><input type ="submit" value="DIVISION" id="btn" onclick="dv()"></td></tr>
+
+    </table>
+</body>
+</html>
